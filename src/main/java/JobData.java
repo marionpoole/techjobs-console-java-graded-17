@@ -74,11 +74,11 @@ public class JobData {
 
             String result = aValue.toLowerCase();
             String term = value.toLowerCase();
+
             if (result.contains(term)) {
                 jobs.add(row);
             }
         }
-
         return jobs;
     }
 
